@@ -1,2 +1,5 @@
+# Ignore DS_Store from macOS
+.DS_Store
+
 # Ignore Obsidian Vault Settings Folder
 # .Obsidian
