@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "89cb15d7bceb40d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a69808fb2a26284",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "580dd43ba45535a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8d2dddfbfb7e8f86",
+    "type": "split",
+    "children": [
+      {
+        "id": "392b73c24ab6b500",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4738cd755ec60b2e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ad8e73fc5cf20f15",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "361bcce3fdfb9e2b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "0e5abceebcdad230",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0080bf2f39567c10",
+    "type": "split",
+    "children": [
+      {
+        "id": "41728a3f1e39484d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25b171584b5c0272",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "26e7eb069bfc978e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "65262720e2366066",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "445ce453425ae56d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graphen-Ansicht öffnen": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false
+    }
+  },
+  "active": "4738cd755ec60b2e",
+  "lastOpenFiles": [
+    "Unbenannt",
+    "How to",
+    "Templates/MovieDB",
+    "Templates",
+    "README.md",
+    "Unbenannt.md",
+    "Scripts/moviesTmdbApi.js",
+    "Scripts",
+    "Movies"
+  ]
+}

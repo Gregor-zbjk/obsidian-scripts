@@ -1,0 +1,31 @@
+{
+  "choices": [],
+  "macros": [
+    {
+      "name": "Lookup Movie",
+      "id": "8eb7ec02-93b5-467b-a3d6-ad633ceae6ac",
+      "commands": [
+        {
+          "name": "moviesTmdbApi",
+          "type": "UserScript",
+          "id": "e9fd9055-2b45-407d-aa35-6432daa0eb2b",
+          "path": "moviesTmdbApi.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "0.19.4",
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}
