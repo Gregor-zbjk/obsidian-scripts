@@ -1,1 +1,7 @@
-{}
+{
+  "userIgnoreFilters": [
+    "Templates/"
+  ],
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true
+}

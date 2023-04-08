@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Movies/Avatar (2009).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b92a2511c475f87c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Movies/Movies Overview.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Movies/Movies Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Movies/Movies Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Movies/Movies Overview.md"
+              }
             }
           }
         ]
@@ -152,14 +169,21 @@
   },
   "active": "4738cd755ec60b2e",
   "lastOpenFiles": [
+    "Scripts/QuickAddJS",
+    "Scripts/DataviewJS",
+    "Scripts/TemplaterJS",
+    "Templates/Templater",
+    "Templates/QuickAdd",
+    "Movies/Avatar (2009).md",
+    "Movies/Movies Overview.md",
+    "Templates/QuickAdd/New Movie Template.md",
+    "Unbenannt.md",
     "Unbenannt",
     "How to",
     "Templates/MovieDB",
     "Templates",
     "README.md",
-    "Unbenannt.md",
-    "Scripts/moviesTmdbApi.js",
-    "Scripts",
-    "Movies"
+    "Scripts/QuickAddJS/moviesTmdbApi.js",
+    "Scripts"
   ]
 }
