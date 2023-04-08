@@ -13,7 +13,7 @@
 const notice = (msg) => new Notice(msg, 5000);
 const log = (msg) => console.log(msg);
 
-const LANGUAGE = "de";
+const API_LANGUAGE_OPTION = "Language";
 
 const API_KEY_OPTION = "TMDb API Key";
 const TMDB_SEARCH_URL = "https://api.themoviedb.org/3/search/movie";
@@ -39,6 +39,11 @@ module.exports = {
         defaultValue: "",
         placeholder: "TMDb API Key",
       },
+      [API_LANGUAGE_OPTION]: {
+        type: "text",
+        defaultValue: "en-US",
+        placeholder: "Language (ISO)",
+      }
     },
   },
 };
