@@ -85,12 +85,9 @@ async function start(params, settings) {
     IMDBLink: `${IMDB_BY_ID_URL}${movie.imdb_id}`,
     poster: `${POSTER_PATH}${movie.poster_path}`,
     actors: linkifyList(populateActors(movie.credits.cast)),
-    characters: populateCharacters(movie.credits.cast),
+    characters: linkifyList(populateCharacters(movie.credits.cast)),
     genres: movie.genres.map((g) => g.name).join(", "),
-    director: movie.credits.crew
-      .filter((d) => d.job === "Director")
-      .map((d) => d.name)
-      .join(", "),
+    director: linkifyList(getListDirectors(movie.credits.crew)),
     cinemato: movie.credits.crew
       .filter((d) => d.job === "Director of Photography")
       .map((d) => d.name)
@@ -153,8 +150,10 @@ function populateCharacters(actors) {
 }
 
 // preprogress List
-function linkifyList() {
-  return
+function getListDirectors(directors) {
+  return [...directors]
+    .filter((d) => d.job === "Director")
+    .map((d) => d.name);
 }
 
 // Add [[Link]] to argument
