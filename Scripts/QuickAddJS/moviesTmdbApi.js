@@ -156,6 +156,11 @@ function getListDirectors(directors) {
     .map((d) => d.name);
 }
 
+function getCollection(collection) {
+  return [...collection]
+    
+}
+
 // Add [[Link]] to argument
 function linkifyList(list) {
   if (list.length === 0) return "";
