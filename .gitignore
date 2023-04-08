@@ -1,5 +1,17 @@
 # Ignore DS_Store from macOS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.trash
+ehthumbs.db
+Thumbs.db
+
+.obsidian/workspace.js
+
+.idea/
+
 
 # Ignore Obsidian Vault Settings Folder
 # .Obsidian
