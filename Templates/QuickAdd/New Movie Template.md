@@ -3,9 +3,10 @@ poster: {{VALUE:poster}}
 tmdbId: {{VALUE:id}}
 imdbId: {{VALUE:imdb_id}}
 rating:
-
 status:
 ---
+
+## Data
 
 scoreTmdb: {{VALUE:vote_average}}
 length: {{VALUE:runtime}}
